@@ -14,7 +14,6 @@ const AddTasksModal = ({ isOpen, setIsOpen }) => {
     }
     const onSubmit = (data) => {
         dispatch(addTasks(data))
-        console.log(data);
         onCancel();
 
     }
